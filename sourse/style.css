@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.navbar-menu input {
+    width: 210px;
+    height: 36px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+li{
+    list-style: none;
+}
+
+.container-nav ,.navbar-menu, .navbar-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.container-hero ,.row{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hero h2 ,p{
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 4px;
+    width: 110px;
+    height: 20px;
+    background-color: #1f2b38;
+}
+
+.btn a{
+    position: absolute;
+    text-decoration: none;
+    color: #ffff;   
+}
+
+.container{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.card-body-wrapper{
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.card-body{
+    display: flex;
+    padding: 10px;
+}
+
+.programs-card__content{
+    margin: 5px;
+    padding: 5px;
+}
+
+.programs-card__content p, h5, span{
+    padding: 0;
+    margin: 5px;
+    text-align: justify;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-action-section{
+    width: 100%;
+}
+
+.reviewer-action-section img{
+    position: relative;
+}
+
+.footer-commons {
+    color: black;
+    padding: 40px 0;
+}
+
+.footer-commons .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-commons img {
+    max-width: 100px;
+}
+
+.footer-commons .col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.footer-commons .col p {
+    margin-bottom: 20px;
+}
+
+.footer-commons .col h6 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footer-commons .col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-commons .col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-commons .col ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-commons .col ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+footer hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+footer span {
+    margin: 0 10px;
+}
